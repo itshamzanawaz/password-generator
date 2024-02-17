@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+.content {
+  margin: 20px;
+}
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  text-align: center;
+}
+.label-input{
+  width: 30rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-section {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  text-align: center;
+}
+.pass-input{
+  width: 30rem;
+  height: 3.4rem;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.rule {
+  margin-bottom: 10px;
+}
+.rule {
+  transition: all 0.3s ease-in-out;
+}
+
+.rule:not(:first-child) {
+  margin-top: 10px;
+}
+.rule-met {
+  color: green;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  text-align: center;
+  border: solid rgb(9, 255, 0) 2px;
+  border-radius: 20px;
+  margin-top: 0%;
+  overflow: hidden;
+  height: 8rem;
+}
+.rmh{
+  text-align: left;
+  background-color: rgb(107, 223, 103);
+  color: black;
+  margin-top: 0%;
+  height: 2rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  opacity: 0.8;
+}
+.rule-not-met {
+  color: rgb(240, 69, 69)en;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  text-align: center;
+  border: solid rgb(243, 52, 52) 2px;
+  border-radius: 20px;
+  margin-top: 0%;
+  overflow: hidden;
+  height: 8rem;
+  transition: opacity 2s ease-in-out;
+  display: none;
+}
+
+.rnmh{
+  text-align: left;
+  background-color: rgb(223, 103, 103);
+  color: black;
+  margin-top: 0%;
+  height: 2rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  opacity: 0.8;
+
+}
